@@ -1,6 +1,10 @@
 <p align="center">
   <a href="https://promethex.market">
-    <img src="https://promethex.market/assets/promethex-logo-with-brand-white.png" height="48" alt="PrometheX" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/promethex2026/.github/main/profile/logo-white.png" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/promethex2026/.github/main/profile/logo-black.png" />
+      <img src="https://raw.githubusercontent.com/promethex2026/.github/main/profile/logo-black.png" height="48" alt="PrometheX" />
+    </picture>
   </a>
 </p>
 
