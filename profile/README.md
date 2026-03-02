@@ -1,15 +1,19 @@
 <p align="center">
-  <img src="https://app.promethex.market/logo.svg" width="80" alt="PrometheX" />
+  <a href="https://promethex.market">
+    <img src="https://promethex.market/assets/promethex-logo-with-brand-white.png" height="48" alt="PrometheX" />
+  </a>
 </p>
 
-<h1 align="center">PrometheX</h1>
+<h3 align="center">Prediction Market Infrastructure for Everyone</h3>
 
 <p align="center">
-  <strong>Decentralized prediction market protocol on Arbitrum</strong>
+  Launch a white-label prediction market under your brand in 4 weeks.<br/>
+  Powered by our APMM engine, settled on-chain, and ready for the $44B prediction market boom.
 </p>
 
 <p align="center">
-  <a href="https://app.promethex.market">App</a> &nbsp;&middot;&nbsp;
+  <a href="https://promethex.market">Website</a> &nbsp;&middot;&nbsp;
+  <a href="https://app.promethex.market">Live Platform</a> &nbsp;&middot;&nbsp;
   <a href="https://docs.promethex.market">Docs</a> &nbsp;&middot;&nbsp;
   <a href="https://x.com/promethe_X">X / Twitter</a> &nbsp;&middot;&nbsp;
   <a href="https://discord.gg/EuKaZNwARB">Discord</a> &nbsp;&middot;&nbsp;
@@ -21,37 +25,44 @@
 
 ### What is PrometheX?
 
-PrometheX is a decentralized prediction market protocol built on **Arbitrum**. Users can trade on the outcomes of real-world events — from crypto prices to elections to sports — using an on-chain order book powered by Conditional Token Framework (CTF).
+PrometheX is the world's first **Prediction Markets as a Service (PMaaS)** engine. We provide turnkey infrastructure so platforms can launch their own prediction markets — your brand, your users, our engine.
 
-### How it works
+### What You Get
 
-1. **Browse markets** — Explore live prediction markets across categories like crypto, politics, sports, and more.
-2. **Trade outcomes** — Buy YES or NO shares on any market. Prices reflect the crowd's probability estimate.
-3. **Earn on accuracy** — Correct predictions pay out $1 per share at resolution. Your edge is your reward.
+Everything you need to run a prediction market. Turnkey infrastructure so you can focus on your market, not the plumbing.
+
+- **APMM Liquidity Engine** — Automated market making with dynamic pricing. No order books, no liquidity bootstrapping needed.
+- **White-Label Frontend** — Your brand, your domain, your users. Fully customizable React app deployed on your infrastructure.
+- **On-Chain Settlement** — Trustless resolution via UMA oracle. Transparent, auditable, and dispute-resistant.
+- **Account Abstraction** — Gasless UX with ERC-4337 smart wallets. Users trade without managing gas or private keys.
 
 ### Architecture
 
 | Layer | Stack |
 |-------|-------|
 | **Smart Contracts** | Solidity · Foundry · CTF · APMM · OpenZeppelin |
-| **Backend** | Go · gRPC · PostgreSQL · Redis |
+| **Backend** | Go · gRPC · Protocol Buffers · PostgreSQL · Redis |
 | **Frontend** | React · TypeScript · Vite · Cloudflare Workers |
 | **Auth & Wallet** | Privy · Account Abstraction (ERC-4337) |
-| **Chain** | Arbitrum Sepolia (testnet) → Arbitrum One (mainnet) |
+| **Chain** | Arbitrum (Sepolia testnet → One mainnet) |
+
+### PM + AI = PI
+
+Our engine generates structured, real-time probabilistic data. **Prediction Intelligence (PI)** — a new data primitive for research, risk modeling, and decision-making.
 
 ### Open Source
 
 | Repository | Description |
 |------------|-------------|
 | [`docs`](https://github.com/promethex2026/docs) | Developer documentation & API reference |
-| [`faucet`](https://github.com/promethex2026/faucet) | Testnet faucet for Arbitrum Sepolia ETH & tUSDC |
 
-### Contributing
+### Get in Touch
 
-We're building in public. Follow our progress on [X](https://x.com/promethe_X) and join the conversation on [Discord](https://discord.gg/EuKaZNwARB).
+Interested in launching a prediction market?
+**chris@promethex.market** · [See How It Works](https://promethex.market)
 
 ---
 
 <p align="center">
-  <sub>Built with conviction. Settled on-chain.</sub>
+  <sub>&copy; 2026 PrometheX. All Rights Reserved.</sub>
 </p>
